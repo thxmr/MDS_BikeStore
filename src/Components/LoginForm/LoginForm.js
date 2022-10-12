@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Input from '../Input/Input.js'
+
 const formStyle = {
   'width':'180px',
   'borderRadius':'80px',
@@ -33,14 +35,8 @@ function LoginForm() {
     <div className="loginForm" style={loginFormStyle}>
         <form style={formStyle}>
           <h1>Login Here</h1>
-          <div>
-            <label htmlFor='login'>Username</label>
-            <input type="text" name="login" placeholder='Enter username'></input>
-          </div>
-          <div style={{marginBottom:'15px'}}>
-            <label htmlFor='password'>Password</label>
-            <input type="text" name="password" placeholder='Enter password'></input>
-          </div>
+          <Input type="text" name="login" label="Username" placeholder="Enter username"></Input>
+          <Input type="password" name="password" label="Password" placeholder="Enter password"></Input>
           <div style={{marginBottom:'15px'}}>
             <button style={btnStyle}>Connexion</button>
           </div>
