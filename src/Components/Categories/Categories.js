@@ -8,6 +8,7 @@ const categoriesStyle = {
     'borderRadius':'1em 1em 0 0',
     'overflow':'hidden',
     'height':'fit-content',
+    'margin':'0 10px 0 10px',
 }
 
 const categoriesTitleStyle = {
