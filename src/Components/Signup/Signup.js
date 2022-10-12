@@ -58,14 +58,14 @@ const backStyle ={
                              </div>
 
                              <div style={{marginBottom:'15px'}}>
-                                <label  htmlFor="password">Mot de passe :</label>  
-                                <input   type="password" id="password"  />
+                                 <label  htmlFor="password">Mot de passe :</label>  
+                                 <input   type="password" id="password"  />
                                  
                              </div>
 
                              <div style={{marginBottom:'15px'}}>
-                                 <label htmlFor="confirmPassword">Confirmer le mot de passe :</label>
-                                 <input   type="password" id="confirmPassword"  />
+                                   <label htmlFor="confirmPassword">Confirmer le mot de passe :</label>
+                                   <input   type="password" id="confirmPassword"  />
                                  
                              </div>
 

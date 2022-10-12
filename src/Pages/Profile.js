@@ -1,8 +1,12 @@
 import Input from "../Components/Input/Input"
+import image from '../img/Vélo.jpg'
+import avatar from '../Components/LoginForm/img/user.png'
 
 import "./UserProfile.css"
 
 const mainContainerStyle = {
+    'backgroundImage': `url(${image})`,
+    'backgroundSize' : 'cover',
     'width':'100vw',
     'height':'100vh',
     'backgroundColor':'blue',
@@ -16,7 +20,9 @@ const profileModalStyle = {
     'height': 'fit-content',
     'borderRadius':'3em',
     'padding':'30px',
-    'backgroundColor': 'red',
+    'backgroundColor': 'black',
+    'color':'white',
+    'opacity':'0.8'
 }
 
 const pictureContainerStyle = {
@@ -26,10 +32,10 @@ const pictureContainerStyle = {
 }
 const pictureStyle = {
     'border':'1px solid black',
-    'backgroundColor':'whitesmoke',
     'borderRadius':'50%',
     'width':'125px',
     'height':'125px',
+    'margin':'40px'
 }
 
 const editPictureStyle = {
@@ -48,9 +54,28 @@ const editPictureStyle = {
 const formStyle = {
     'width':'100%',
     'display':'flex',
-    'flexDirection':'row',
-    'flexWrap':'wrap',
-    'justifyContent':'space-between'
+    'flexDirection': 'column',
+    'flexWrap': 'wrap',
+    'alignContent': 'center',
+
+    // 'flexDirection':'row',
+    // 'flexWrap':'wrap',
+    // 'justifyContent':'space-between'
+}
+const btnStyle = {
+    'backgroundColor':'red',
+    'borderRadius':'60px',
+    'width':'32%',
+    'marginTop':'50px',
+    'fontSize':'16px',
+    'lineHeight':'30px',
+    'padding':'3px 8px'
+  }
+  const divStyle = {
+    'display':'flex',
+    'flexDirection': 'row',
+    'flexWrap': 'wrap',
+    'alignContent': 'center',
 }
 
 function Profile(){
@@ -59,20 +84,26 @@ function Profile(){
             <div style={mainContainerStyle}>
                 <div style={profileModalStyle}>
                     <div style={pictureContainerStyle}>
-                        <div style={pictureStyle}/>
+                        <img style={pictureStyle} src={avatar}/>
                         <button style={editPictureStyle}>Edit</button>
                     </div>
                     <form style={formStyle}>
-                        <select id="selChngLang" className="selectField" name="language">
+                        <select style={{width:"30%"}} id="selChngLang" className="selectField" name="language">
                             <option id="selOpFr">fr</option>
                             <option id="selOpEn">en</option>
                         </select>
-                        <Input label="Username" type="text" name="username"></Input>
-                        <Input label="Password" type="password" name="password"></Input>
-                        <Input label="Email" type="email" name="email"></Input>
-                        <Input label="Phone" type="tel" name="phone"></Input>
+                        <div style={divStyle} >
+                            <Input label="Username" type="text" name="username"></Input>
+                            <Input label="Password" type="password" name="password"></Input>
+                        </div>
+                        <div style={divStyle}>
+                            <Input label="Email" type="email" name="email"></Input>
+                            <Input label="Phone" type="tel" name="phone"></Input>
+                        </div>
+                        <div style={divStyle}>
                         <Input label="Address" type="text" name="address"></Input>
-                        <input type="submit" value="Enregistrer" id="btEditAdress" className="btField"/>
+                        <input type="submit" value="Enregistrer" id="btEditAdress" className="btField" style={btnStyle}/>
+                        </div>
                     </form>
                 </div>
             </div>
