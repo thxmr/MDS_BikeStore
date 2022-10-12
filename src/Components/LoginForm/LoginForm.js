@@ -38,7 +38,7 @@ function LoginForm() {
           <Input type="text" name="login" label="Username" placeholder="Enter username"></Input>
           <Input type="password" name="password" label="Password" placeholder="Enter password"></Input>
           <Link to={"/"} style={btnStyle}>Connexion</Link>
-          <Link to={"/signup"} style={{'color':'white'}}>Pas de compte ? S'inscrire</Link>
+          <Link to={"/signup"} style={{'color':'white'}}>              <p></p>Pas de compte ? S'inscrire</Link>
         </form>
     </div>
   );
