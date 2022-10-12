@@ -33,13 +33,11 @@ const btnStyle = {
 function LoginForm() {
   return (
     <div className="loginForm" style={loginFormStyle}>
-        <form style={formStyle}>
+        <form style={formStyle} action="POST">
           <h1>Login Here</h1>
           <Input type="text" name="login" label="Username" placeholder="Enter username"></Input>
           <Input type="password" name="password" label="Password" placeholder="Enter password"></Input>
-          <div style={{marginBottom:'15px'}}>
-            <button style={btnStyle}>Connexion</button>
-          </div>
+          <button style={btnStyle}>Connexion</button>
         </form>
     </div>
   );
