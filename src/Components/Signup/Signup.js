@@ -1,38 +1,76 @@
 import React from 'react'
+import image from '../../img/Vélo.jpg'
+import avatar from '../LoginForm/img/user.png'
+const backStyle ={
+    'display':'flex',
+    'alignItems':'center',
+    'justifyContent':'center',
+    'width':'100%',
+    'height':'100%',
+    'backgroundImage': `url(${image})`,
+    'backgroundSize' : 'cover'
+    
+  }
+  const formStyle = {
+    'width':'180px',
+    'borderRadius':'80px',
+    'backgroundColor':'black',
+    'padding':'100px',
+    'opacity':'0.8',
+    'color':'white',
+  }
+  const btnStyle = {
+    'backgroundColor':'red',
+    'borderRadius':'60px',
+    'width':'100%',
+    'marginTop':'40px',
+    'fontSize':'16px',
+    'lineHeight':'30px',
+    'padding':'3px 8px'
+  }
+  const imgStyle ={
+    'width':'90%',
+    'borderRadius':'80px',
+    'position':'center'
+  }
+
+
 
 
     const Signup = () => {
         return(
-            <div>
+            
+            <div style={backStyle}>
                 
-                <form style={{width:"180px" ,margin: "auto" ,marginTop:"150px" ,borderRadius:"80px" ,backgroundColor:'black' ,padding:'100px',opacity:'0.8'}} >
-                               <h2 style={{color:'white'}}>Inscription</h2>
-    //                         <div style={{marginBottom:'15px'}} >
-                                   <label style={{color:'white'}} htmlFor="pseudo">Pseudo</label>
-    //                             <input  type="text" id="pseudo"  />
-    //                            
-    //                         </div>
+                <form style={formStyle} >
+                            <img style ={imgStyle}src={avatar} alt="image"></img>
+                            <h2 >Inscription</h2>
+                            <div style={{marginBottom:'15px'}} >
+                                <label  htmlFor="pseudo">Pseudo :</label>
+                                <input  type="text" id="pseudo"  />
+                                
+                            </div>
 
-    //                         <div style={{marginBottom:'15px'}}>
-                                   <label style={{color:'white'}} htmlFor="email">Email</label>
-    //                             <input   type="email" id="email"  />
-    //                             
-    //                         </div>
+                             <div style={{marginBottom:'15px'}}>
+                                <label  htmlFor="email">Email :</label>
+                                <input   type="email" id="email"  />
+                                 
+                             </div>
 
-    //                         <div style={{marginBottom:'15px'}}>
-                                   <label style={{color:'white'}} htmlFor="password">Mot de passe</label>  
-    //                             <input   type="password" id="password"  />
-    //                             
-    //                         </div>
+                             <div style={{marginBottom:'15px'}}>
+                                <label  htmlFor="password">Mot de passe :</label>  
+                                <input   type="password" id="password"  />
+                                 
+                             </div>
 
-    //                         <div style={{marginBottom:'15px'}}>
-                                   <label style={{color:'white'}} htmlFor="confirmPassword">Confirmer le mot de passe</label>
-    //                             <input   type="password" id="confirmPassword"  />
-    //                             
-    //                         </div>
+                             <div style={{marginBottom:'15px'}}>
+                                 <label htmlFor="confirmPassword">Confirmer le mot de passe :</label>
+                                 <input   type="password" id="confirmPassword"  />
+                                 
+                             </div>
 
-    //                         <button style={{backgroundColor:'red', borderRadius:"60px" , width:"100%",marginTop:'20px',fontSize:"16px",lineHeight:"30px",padding:"3px 8px"}}>inscrit</button>
-    //                     </form>
+                             <button style={btnStyle}>inscrit</button>
+                         </form>
             </div>
         )
     }
