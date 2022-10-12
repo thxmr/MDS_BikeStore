@@ -5,7 +5,7 @@ const imageStyle = {
 function Image(props){
     return (
         <>
-            <img src={props.src} style={imageStyle}></img>
+            <img src={props.src} style={imageStyle} alt={props.alt}></img>
         </>
     );
 }
