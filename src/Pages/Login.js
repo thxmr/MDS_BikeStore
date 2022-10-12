@@ -1,8 +1,13 @@
 import LoginForm from '../Components/LoginForm/LoginForm'
 
-import backgroundImage from '../Components/LoginForm/img/Vélo.jpg';
+import backgroundImage from '../img/Vélo.jpg'
+
 const loginStyle = {
-    'backgroundImage':{backgroundImage}
+    'backgroundImage':`url(${backgroundImage})`,
+    'backgroundRepeat':'no-repeat',
+    'backgroundSize':'cover',
+    'width':'100vw',
+    'height':'100vh',
 }
 function Login(){
     return( 
