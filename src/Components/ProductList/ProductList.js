@@ -13,7 +13,7 @@ const productListStyle = {
 
 const productDesc = 
 `
-description
+Ceci est une description du produit
 `;
     
 
@@ -21,12 +21,10 @@ function ProductList(){
     return (
         <>
             <div style={productListStyle}>
-                <Product title="yeet1" desc={productDesc} image={sample}></Product>
-                <Product title="yeet2" desc={productDesc} image={sample}></Product>
-                <Product title="yeet3" desc={productDesc} image={sample}></Product>
-                <Product title="yeet4" desc={productDesc} image={sample}></Product>
-                <Product title="yeet5" desc={productDesc} image={sample}></Product>
-                <Product title="yeet6" desc={productDesc} image={sample}></Product>
+                <Product name="yeet1" price="333,0€" desc={productDesc} gender="male" weight="333kg" year="2042" refprod="927164" image={sample}></Product>
+                <Product name="yeet2" price="353,0€" desc={productDesc} gender="male" weight="333kg" year="2042" refprod="927164" image={sample}></Product>
+                <Product name="yeet3" price="393,0€" desc={productDesc} gender="male" weight="333kg" year="2042" refprod="927164" image={sample}></Product>
+                <Product name="yeet4" price="43,0€" desc={productDesc} gender="male" weight="333kg" year="2042" refprod="927164" image={sample}></Product>
             </div>
         </>
     );
