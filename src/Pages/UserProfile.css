@@ -1,0 +1,35 @@
+
+.selectField
+{
+    height: 25px;
+}
+
+.btField
+{
+    background-color: #e34234;
+    color: black;
+    border: 1px solid red;
+    border-radius: 50px;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+    width: 20%;
+    height: 5vh;
+    cursor: pointer;
+    display:block;
+    margin:10px auto 0 auto;
+}
+.btField:hover
+{
+    opacity: 1;
+}
+.btField:active
+{
+    background-color: red;
+}
+
+.inputField
+{
+    margin-left: 5%;
+    width: 85%;
+}
