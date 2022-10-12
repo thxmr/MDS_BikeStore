@@ -29,7 +29,7 @@ function Header(){
             <div style={headerStyle}>
                 <div style={contentHeaderStyle}>
                     <p>Coucou</p>
-                    <p>BikeStore</p>
+                    <Link to={"/"}>BikeStore</Link>
                     <Link to={"/login"}>Login</Link>
                 </div>
             </div>
