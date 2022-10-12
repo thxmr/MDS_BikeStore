@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import Input from '../Input/Input.js'
 
 const formStyle = {
@@ -37,7 +37,8 @@ function LoginForm() {
           <h1>Login Here</h1>
           <Input type="text" name="login" label="Username" placeholder="Enter username"></Input>
           <Input type="password" name="password" label="Password" placeholder="Enter password"></Input>
-          <button style={btnStyle}>Connexion</button>
+          <Link to={"/"} style={btnStyle}>Connexion</Link>
+          <Link to={"/signup"} style={{'color':'white'}}>Pas de compte ? S'inscrire</Link>
         </form>
     </div>
   );
