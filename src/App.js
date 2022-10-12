@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Profile from './Pages/Profile';
 import Signup from './Components/Signup/Signup';
+import BikeStoreDetails from './Components/BikeStoreDetails/BikeStoreDetails';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/signup" element={<Signup/>}/>
+        <Route path="/product" element={<BikeStoreDetails/>}/>
       </Routes>
     </>    
 );
