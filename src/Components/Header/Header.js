@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import img1 from './menu.png';
+import img2 from './accueil.png';
+import img3 from './utilisateur.png';
 
 const headerStyle = {
     'backgroundColor':'green',
@@ -23,14 +26,33 @@ const contentHeaderStyle = {
     'height':'100%',
 }
 
+const menuIcon = {
+    'backgroundImage' : `url(${img1})`,
+    'backgroundSize' : 'cover',
+    'width' : '50px',
+    'height' : '50px',
+}
+const homeIcon = {
+    'backgroundImage' : `url(${img2})`,
+    'backgroundSize' : 'cover',
+    'width' : '50px',
+    'height' : '50px',
+}
+const userIcon = {
+    'backgroundImage' : `url(${img3})`,
+    'backgroundSize' : 'cover',
+    'width' : '50px',
+    'height' : '50px',
+}
+
 function Header(){
     return (
         <>
             <div style={headerStyle}>
                 <div style={contentHeaderStyle}>
-                    <p>Coucou</p>
-                    <Link to={"/"}>BikeStore</Link>
-                    <Link to={"/login"}>Login</Link>
+                    <Link to={"/"} style={menuIcon}></Link>
+                    <Link to={"/"} style={homeIcon}></Link>
+                    <Link to={"/login"} style={userIcon}></Link>
                 </div>
             </div>
         </>
