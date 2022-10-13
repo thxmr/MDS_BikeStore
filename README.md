@@ -1,14 +1,12 @@
-# Project Title
+# BikeStore
 
 Projet de création de site à des fins pédagogiques 
-
 
 ## Tech Stack
 
 **Client:** React
 
 **Server:** PHP
-
 
 ## Authors
 
@@ -17,12 +15,14 @@ Projet de création de site à des fins pédagogiques
 - [@Aelotra](https://www.github.com/Aelotra)
 - [@teogarbarino](https://www.github.com/teogarbarino)
 
-
-## Screenshots /LoginS
+## Screenshots /login
 
 ![App Screenshot](https://i.gyazo.com/5bdfb0e6c0d9a23fa40b5e96d36e4944.jpg)
 
-## Screenshots /Home
+## Screenshots /
+
 ![App Screenshot](https://i.gyazo.com/6d826e22599a95953ae829358d49e13a.png)
-## Screenshots /Profile
+
+## Screenshots /signup
+
 ![App Screenshot](https://i.gyazo.com/thumb/1200/9ac4db3a18359ce8f3fc17609d0b83f0-jpg)
