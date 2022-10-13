@@ -58,10 +58,6 @@ const formStyle = {
     'flexDirection': 'column',
     'flexWrap': 'wrap',
     'alignContent': 'center',
-
-    // 'flexDirection':'row',
-    // 'flexWrap':'wrap',
-    // 'justifyContent':'space-between'
 }
 const btnStyle = {
     'backgroundColor':'red',

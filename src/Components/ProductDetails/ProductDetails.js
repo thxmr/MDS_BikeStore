@@ -1,7 +1,6 @@
 import Image from "../Image/Image";
 import {useLocation} from "react-router-dom"
 import Header from "../Header/Header";
-import { hover } from "@testing-library/user-event/dist/hover";
 
 const bikeStoreDetailsStyle = {
     'marginTop':'80px',
