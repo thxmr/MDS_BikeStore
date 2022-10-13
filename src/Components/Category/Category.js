@@ -1,8 +1,9 @@
+
 const categoryStyle = {
-    'backgroundColor':'blue',
-    'margin':'0',
     'padding':'10px 0 10px 0',
     'textAlign':'center',
+    'width':'100%',
+    'color':'white', 
 }
 
 function Category(props){

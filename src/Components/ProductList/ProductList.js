@@ -5,7 +5,7 @@ import sample from "../../img/sample.jpg";
 const productListStyle = {
     'display':'flex',
     'width':'70%',
-    'height':'90%',
+    // 'height':'90%',
     'justifyContent':'space-evenly',
     'flexWrap':'wrap',
     'marginTop':'10px',
