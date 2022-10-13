@@ -1,11 +1,17 @@
 import ProductList from "../Components/ProductList/ProductList";
 import Categories from "../Components/Categories/Categories";
+import photo from'../Components/Categories/img/photo.jpg'
 
 import Header from "../Components/Header/Header";
 import "./Home.css"
 const homeStyle = {
     'display':'flex',
+    'flexDirection': 'column',
     'marginTop':'90px',
+}
+const backgroundHome={
+    'backgroundImage':`url(${photo})`,
+    'backgroundSize':'cover',
 }
 
 function Home(){
