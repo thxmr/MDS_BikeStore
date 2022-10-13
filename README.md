@@ -21,7 +21,7 @@ Project about use of git in a Website template
 
 ## Screenshots /
 
-![App Screenshot](https://i.gyazo.com/6d826e22599a95953ae829358d49e13a.png)
+![App Screenshot](https://cdn.discordapp.com/attachments/1024325511763218463/1030050400939802634/unknown.png)
 
 ## Screenshots /signup
 
