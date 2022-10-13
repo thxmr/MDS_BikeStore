@@ -28,4 +28,4 @@ Project about use of git in a Website template
 ![App Screenshot](https://i.gyazo.com/thumb/1200/9ac4db3a18359ce8f3fc17609d0b83f0-jpg)
 ## Screenshots /profile
 
-![App Screenshot](https://i.gyazo.com/thumb/1200/9ac4db3a18359ce8f3fc17609d0b83f0-jpg)
+![App Screenshot](https://i.gyazo.com/0238bef52fcd53ea9473a5733336fde3.jpg)
