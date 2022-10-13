@@ -7,7 +7,7 @@ import Home from './Pages/Home';
 import Login from './Pages/Login';
 import Profile from './Pages/Profile';
 import Signup from './Components/Signup/Signup';
-import BikeStoreDetails from './Components/BikeStoreDetails/BikeStoreDetails';
+import Product from './Pages/Product';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<Profile/>}/>
         <Route path="/signup" element={<Signup/>}/>
-        <Route path="/product" element={<BikeStoreDetails/>}/>
+        <Route path="/product" element={<Product/>}/>
       </Routes>
     </>    
 );

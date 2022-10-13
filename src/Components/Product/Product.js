@@ -28,7 +28,7 @@ function Product(props){
             <div style={productStyle}>
                 <Image src={props.image }></Image>
                 <h2 style={textStyle}>{props.name}</h2>
-                <p style={textStyle}>{props.desc}</p>
+                <p style={textStyle}>{props.price}</p>
                 <Link to={"/product#"+props.name}
                 state= {{
                     price : props.price,
