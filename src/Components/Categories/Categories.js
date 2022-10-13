@@ -25,12 +25,11 @@ function Categories(){
         <div style={backgroundHome}>
             <h1 style={categoriesTitleStyle}>Categories</h1>
             <div id="categories" style={categoriesStyle}>
-                
+                <p style={categoriesTitleStyle}>Categories</p>
                 <Category title="BMX"></Category>
                 <Category title="VTT"></Category>
-                <Category title="JSP"></Category>
-                <Category title="YEET"></Category>
-                
+                <Category title="VÉLOS ÉLÉCTRIQUES"></Category>
+                <Category title="ACCESSOIRES"></Category>
             </div>
         </div>
         </>

@@ -1,14 +1,18 @@
-const inputStyle = {
+const inputContainerStyle = {
     'marginTop':'20px',
-    'width':'fit-content',
+    'width':'100%',
+}
+
+const inputStyle = {
+    'width':'100%',
 }
 
 function Input(props){
     return (
         <>
-        <div style={inputStyle}>
+        <div style={inputContainerStyle}>
             <label htmlFor={props.name}>{props.label}</label><br/>
-            <input type={props.type} name={props.name} placeholder={props.placeholder}></input>
+            <input type={props.type} name={props.name} placeholder={props.placeholder} style={inputStyle}></input>
         </div>
         </>
     );

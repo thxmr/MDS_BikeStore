@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const headerStyle = {
     'backgroundColor':'green',
     'height':'75px',
@@ -26,9 +28,9 @@ function Header(){
         <>
             <div style={headerStyle}>
                 <div style={contentHeaderStyle}>
-                    <p>Bite</p>
-                    <p>BikeStore</p>
-                    <p>Bite</p>
+                    <p>Coucou</p>
+                    <Link to={"/"}>BikeStore</Link>
+                    <Link to={"/login"}>Login</Link>
                 </div>
             </div>
         </>

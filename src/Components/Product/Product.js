@@ -4,18 +4,21 @@ import { Link } from "react-router-dom";
 const productStyle = {
     'border':'1px solid black',
     'width':'15vw',
-    'height':'20vw',
+    'Height':'20vw',
     'marginBottom':'10px',
 }
 
 const textStyle = {
     'margin':'0 0 10px 0',
     'textAlign':'center',
+    'Heigth': 'fit-content',
 }
 
 const linkStyle = {
     'width':'100%',
     'display':'block',
+    'Heigth': 'fit-content',
+
 }
 
 function Product(props){
@@ -23,9 +26,9 @@ function Product(props){
     return (
         <>
             <div style={productStyle}>
-                <Image src={props.image}></Image>
+                <Image src={props.image }></Image>
                 <h2 style={textStyle}>{props.name}</h2>
-                <p style={textStyle}>{props.desc}</p>
+                <p style={textStyle}>{props.price}</p>
                 <Link to={"/product#"+props.name}
                 state= {{
                     price : props.price,
@@ -36,7 +39,7 @@ function Product(props){
                     year : props.year,
                     refprod : props.refprod,
                     image : props.image,
-                    }} style={{...textStyle,...linkStyle}}>Find out more</Link>
+                    }} style={{...textStyle,...linkStyle}}>Plus d'infos</Link>
             </div>
         </>
     );
