@@ -1,6 +1,6 @@
 # BikeStore
 
-Projet de création de site à des fins pédagogiques 
+Project about use of git in a Website template
 
 ## Tech Stack
 
@@ -24,5 +24,8 @@ Projet de création de site à des fins pédagogiques
 ![App Screenshot](https://i.gyazo.com/6d826e22599a95953ae829358d49e13a.png)
 
 ## Screenshots /signup
+
+![App Screenshot](https://i.gyazo.com/thumb/1200/9ac4db3a18359ce8f3fc17609d0b83f0-jpg)
+## Screenshots /profile
 
 ![App Screenshot](https://i.gyazo.com/thumb/1200/9ac4db3a18359ce8f3fc17609d0b83f0-jpg)
