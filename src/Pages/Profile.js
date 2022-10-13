@@ -1,7 +1,8 @@
 import Input from "../Components/Input/Input"
+import { Link } from "react-router-dom"
+
 import image from '../img/Vélo.jpg'
 import avatar from '../Components/LoginForm/img/user.png'
-
 import "./UserProfile.css"
 
 const mainContainerStyle = {
@@ -69,7 +70,10 @@ const btnStyle = {
     'marginTop':'50px',
     'fontSize':'16px',
     'lineHeight':'30px',
-    'padding':'3px 8px'
+    'padding':'3px 8px',
+    'display':'block',
+    'marginLeft':'auto',
+    'marginRight':'auto',
   }
   const divStyle = {
     'display':'flex',
@@ -101,8 +105,8 @@ function Profile(){
                             <Input label="Phone" type="tel" name="phone"></Input>
                         </div>
                         <div style={divStyle}>
-                        <Input label="Address" type="text" name="address"></Input>
-                        <input type="submit" value="Enregistrer" id="btEditAdress" className="btField" style={btnStyle}/>
+                            <Input label="Address" type="text" name="address"></Input>
+                            <Link to={"/"} style={btnStyle}>Enregistrer</Link>
                         </div>
                     </form>
                 </div>

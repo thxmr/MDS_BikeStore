@@ -50,9 +50,9 @@ function Header(){
         <>
             <div style={headerStyle}>
                 <div style={contentHeaderStyle}>
-                    <Link to={"/"} style={menuIcon}></Link>
+                    <Link to={"/login"} style={menuIcon}></Link>
                     <Link to={"/"} style={homeIcon}></Link>
-                    <Link to={"/login"} style={userIcon}></Link>
+                    <Link to={"/profile"} style={userIcon}></Link>
                 </div>
             </div>
         </>
