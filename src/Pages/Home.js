@@ -7,7 +7,6 @@ import "./Home.css"
 const homeStyle = {
     'display':'flex',
     'flexDirection': 'column',
-    'marginTop':'90px',
 }
 const backgroundHome={
     'backgroundImage':`url(${photo})`,
